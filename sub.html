@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--web icon-->
+    <link rel="shortcut icon" href="images/barbell.png" type="image/x-icon" />
+    <!--Font-awesome link-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--Main css link-->
+    <link rel="stylesheet" href="style.css" />
+    <!--plot lab-->
+    <script src="https://cdn.plot.ly/plotly-2.16.1.min.js"></script>
+    <title>subscription</title>
+  </head>
+  <body>
+    <!--navbar-->
+    <section id="1">
+      <div class="nav-bar-sub">
+        <a href="index.html"><h1>Fitness GYM.</h1></a>
+        <div class="nav-links">
+          <a href="index.html">HOME</a>
+          <a href="about.html">ABOUT COACH</a>
+          <a href="#myPlot">STATISTICS</a>
+          <a href="#sub">SUBSCRIPE FORM</a>
+        </div>
+        <p class="nav-paragraph-one">
+          The <span>body</span> achieves what the <span>mind </span>believes.
+        </p>
+        <p class="nav-paragraph-two">
+          “If you want something you've never had, you must be willing to do
+          something you've never done.”
+        </p>
+        <div class="btn">
+          <a href="#sub" class="myButton">GET STARTED</a>
+        </div>
+      </div>
+    </section>
+    <!--navbar-->
+    <hr />
+
+    <center>
+      <!--form-->
+      <div class="form" id="sub">
+        <form action="" id="contactForm">
+          <fieldset>
+            <legend>Subscription Form.</legend>
+            <div class="alert">Your subscription data sented</div>
+
+            <br />
+            <br />
+            <input
+              class="in"
+              id="name"
+              type="text"
+              placeholder="Your Name..."
+            />
+
+            <br />
+            <br />
+            <input
+              class="in"
+              id="password"
+              type="password"
+              placeholder="Your Password..."
+            />
+
+            <br />
+            <br />
+            <input
+              class="in"
+              placeholder="Your Email..."
+              type="email"
+              name=""
+              id="email"
+              required
+            />
+            <br />
+            <br />
+            <input class="submit" type="submit" value="Submit" />
+            <input class="submit" type="reset" value="clear" />
+          </fieldset>
+        </form>
+      </div>
+    </center>
+    <hr />
+    <!--form-->
+    <div id="myPlot" style="width: 100%; max-width: 700px"></div>
+
+    <hr />
+
+    <!--footer-->
+    <footer>
+      <div class="footer">
+        <h4>Fitness GYM.</h4>
+        <p>Copyright &copy; 2022 <span>Mohammad Alabed.</span></p>
+        <a href="https://www.linkedin.com/in/mohammed-alabed-a42765234/"
+          ><i class="linkedin fa-brands fa-linkedin fa-3x"></i
+        ></a>
+        <a href="https://www.facebook.com/hamoodah.alabed/"
+          ><i class="facebook fa-brands fa-facebook fa-3x"></i
+        ></a>
+        <a href="https://www.instagram.com/hamoodah.alabed/?hl=en"
+          ><i class="instagram fa-brands fa-instagram fa-3x"></i
+        ></a>
+        <a class="up" href="#1">UP</a>
+      </div>
+    </footer>
+    <!--footer-->
+
+    <!--main js-->
+    <script src="main.js"></script>
+    <!--firebase-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="firebase.js"></script>
+  </body>
+</html>
